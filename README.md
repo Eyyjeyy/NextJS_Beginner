@@ -1,3 +1,30 @@
+06-02-2025
+
+# Stack
+- NextJS, ReactJS, Tailwind
+
+# Installation Command
+- npx create-next-app@latest
+
+# Installation
+- No Typescript
+- No Eslint
+- App Router
+- Turbopack
+- Tailwind CSS
+
+# Guides
+How to host next js app on GitHub pages using GitHub Actions | CI/CD
+    - https://youtu.be/WoL3xbkAfOU
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
