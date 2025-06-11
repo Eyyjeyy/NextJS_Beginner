@@ -1,13 +1,14 @@
 06-02-2025
 
 # Stack
-- NextJS, ReactJS, Tailwind, Motion 
+- NextJS, ReactJS, Tailwind, Motion, React-Typed
 
 # Installation Command
 - npx create-next-app@latest
 - npm i
 - npm i motion
 - npm i react-icons
+- npm i react-typed --save
 
 # Installation
 - No Typescript
