@@ -21,7 +21,12 @@
 How to host next js app on GitHub pages using GitHub Actions | CI/CD
     - https://youtu.be/WoL3xbkAfOU
 
-
+# Regular Next Build
+## Required
+- If not using static export/build remove or comment this line in next config: output: 'export'
+##
+- npm run build
+- npm run start
 
 
 

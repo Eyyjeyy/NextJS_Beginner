@@ -1,23 +1,33 @@
+import Image from 'next/image';
 import HomeHero from '@/Components/HomeHero';
 import HomeHeroReactTyped from '@/Components/HomeHeroReactTyped';
 import Navbar from '@/Components/Navbar';
 import NavbarContainer from '@/Components/NavbarContainer';
-import Image from 'next/image';
 
 export default function Home() {
     return (
         <>
+            {/* HERO SECTION */}
             <section className='text-white overflow-x-hidden overflow-y-hidden'>
                 <HomeHero>
-                    <p className='text-[#00df9a] font-bold p-2'>GROWING WITH DATA ANALYTICS</p>
-                    <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Grow with data.</h1>
-                    <div className='flex justify-center items-center flex-wrap'>
-                        <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Fast, flexible financing for&nbsp;</p>
+                    <div className='col-span-1 md:col-span-9 lg:col-span-8 text-center justify-center flex flex-col md:text-left'>
+                        <p className='text-5xl font-bold p-2'>Hi, I'm</p>
                         <HomeHeroReactTyped />
+                        <p className='text-xl md:max-w-[600px] font-bold text-gray-500'>I build responsive, functional web applications — from front-end behavior to back-end logic — prioritizing readability, efficiency, and performance as I continue to refine my craft.</p>
+                        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
                     </div>
-                    <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor your data analytics to increase revenue for BTB, BTC, & SASS platforms</p>
-                    <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+                    <div className='flex justify-center col-span-1 md:col-span-3 lg:col-span-4'>
+                        <Image src='/images/graduationphotoshoot.JPG' className='mx-auto object-contain' priority={true} width={500} height={500} alt='John Angelo&apos;s Graduation Photoshoot'
+                        />
+                    </div>
                 </HomeHero>
+            </section>
+            {/* HERO SECTION */}
+
+            <section className='py-8'>
+                <div className='rounded-xs border border-gray-500'>
+                    Test
+                </div>
             </section>
         </>
     );

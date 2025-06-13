@@ -14,14 +14,14 @@ function MobileMenuContainer({ children }) {
     
     return (
         <>
-            <div onClick={handleNav} className='block md:hidden'>
+            <div onClick={handleNav} className='block md:hidden cursor-pointer'>
                 {!nav ? <AiOutlineMenu size={20} /> : '' }
             </div>
             <div className={!nav ? 'fixed top-0 left-[-100%] w-[60%] h-full ease-in-out duration-500' : 'fixed left-0 top-0 w-[100vw] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-900 z-100'}>
                 <div className='flex flex-row justify-between items-center'>
                     <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4 mr-0'>REACT.</h1>
                     <div onClick={handleNav} className='block md:hidden pe-4'>
-                        <AiOutlineClose className='z-100' size={24} />
+                        <AiOutlineClose className='z-100 cursor-pointer' size={24} />
                     </div>
                 </div>
                 <ul className='uppercase p-4'>
