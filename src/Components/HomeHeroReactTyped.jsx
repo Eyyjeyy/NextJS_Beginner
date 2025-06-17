@@ -4,8 +4,8 @@ import { ReactTyped } from 'react-typed'
 
 function HomeHeroReactTyped() {
     const textArr = [
-        // 'John Angelo', 
-        // 'Web Developer', 
+        'John Angelo', 
+        'Web Developer', 
         'Continuously Learning'
     ]
 
