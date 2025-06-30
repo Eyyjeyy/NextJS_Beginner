@@ -1,7 +1,7 @@
 06-02-2025
 
 # Stack
-- NextJS, ReactJS, Tailwind, Motion, React-Typed
+- NextJS, ReactJS, Tailwind, Motion, React-Typed, React-Animated-Numbers, React Intersection Observer
 
 # Installation Command
 - npx create-next-app@latest
@@ -9,6 +9,8 @@
 - npm i motion
 - npm i react-icons
 - npm i react-typed --save
+- npm i react-animated-numbers
+- npm i react-intersection-observer
 
 # Installation
 - No Typescript

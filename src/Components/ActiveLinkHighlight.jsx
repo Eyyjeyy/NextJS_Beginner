@@ -8,6 +8,7 @@ function ActiveLinkHighlight() {
     console.log(pathname)
 
     useEffect(() => {
+        console.log('Active Link Re-Render')
         const links = document.querySelectorAll('a.base-link');
         links.forEach(link => {
             const href = link.getAttribute('href');
